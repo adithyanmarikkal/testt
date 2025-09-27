@@ -1,0 +1,110 @@
+/* src/LoginPage.css */
+.login-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-card {
+  background-color: #1c2333; /* Dark card background */
+  padding: 100px 100px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  color: #fff;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #e0e0e0;
+}
+
+.logo-icon {
+  width: 30px; /* Adjust size as needed */
+  height: auto;
+}
+
+.welcome-header h2 {
+  margin-bottom: 8px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.welcome-header p {
+  color: #8a93a2;
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0d6efd; /* Bright blue from image */
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0b5ed7;
+}
+
+.links {
+  margin-top: 25px;
+}
+
+.links a {
+  color: #0d6efd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.links .register-link {
+  margin-top: 15px;
+  color: #8a93a2;
+}
+
+.error-message {
+  color: #ff4d4f;
+  margin-top: 15px;
+}
+
+.connected-info {
+  background-color: #2a3447;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  word-wrap: break-word; /* Ensure long addresses don't overflow */
+}
+
+.connected-info h3 {
+  margin-top: 0;
+  color: #50fa7b; /* Green for success */
+}
+
+.connected-info p {
+  margin: 8px 0;
+  color: #e0e0e0;
+}
+
+.connected-info strong {
+  color: #f1fa8c; /* Yellow for emphasis */
+}
